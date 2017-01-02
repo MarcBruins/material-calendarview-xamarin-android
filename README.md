@@ -1,7 +1,7 @@
 # material-calendarview-xamarin-android
 Binding for material calendarview 1.4.2
 
-<img src="/images/hero.png"/>
+<img src="https://github.com/prolificinteractive/material-calendarview/tree/master/images/images/hero.png"/>
 
 Material Calendar View 
 ======================
@@ -10,7 +10,7 @@ Material Calendar View
 A Material design back port of Android's CalendarView. The goal is to have a Material look
 and feel, rather than 100% parity with the platform's implementation.
 
-<img src="/images/screencast.gif" alt="Demo Screen Capture" width="300px" />
+<img src="https://github.com/prolificinteractive/material-calendarview/tree/master/images/images/screencast.gif" alt="Demo Screen Capture" width="300px" />
 
 Usage
 -----
