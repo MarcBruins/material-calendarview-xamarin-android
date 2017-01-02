@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+<attr path="/api/package[@name='com.prolificinteractive.materialcalendarview']/class[@name='CalendarPagerView']" name="visibility">public</attr>
+<attr path="/api/package[@name='com.prolificinteractive.materialcalendarview']/class[@name='DayView']" name="visibility">public</attr>
+<attr path="/api/package[@name='com.prolificinteractive.materialcalendarview']/class[@name='CalendarPagerView.LayoutParams']" name="visibility">public</attr>
+<attr path="/api/package[@name='com.prolificinteractive.materialcalendarview']/class[@name='DayView']" name="visibility">public</attr>
+
+
+<attr path="/api/package[@name='com.prolificinteractive.materialcalendarview']/class[@name='CalendarPagerAdapter']" name="visibility">public</attr>
+<attr path="/api/package[@name='com.prolificinteractive.materialcalendarview']/interface[@name='DateRangeIndex']" name="visibility">public</attr>
+
+<attr path="/api/package[@name='com.prolificinteractive.materialcalendarview']/class[@name='WeekPagerAdapter']/method[@name='setDecorators']/parameter[@name='p0']" name="managedType">System.Collections.Generic.IList&lt;MaterialCalendarLibrary.IDayViewDecorator&gt;</attr>
+
+<attr path="/api/package[@name='com.prolificinteractive.materialcalendarview']/class[@name='WeekPagerAdapter']/method[@name='setDecorators']/parameter[@name='p0']" name="type">java.util.List&lt;MaterialCalendarLibrary.IDayViewDecorator&gt;</attr>
+
+
+<!--<attr path="/api/package[@name='com.prolificinteractive.materialcalendarview']/class[@name='CalendarPagerAdapter']/method[@name='getSelectedDates' and count(parameter)=0]" name="managedReturn">System.Collections.Generic.IList&lt;MaterialCalendarLibrary.CalendarDay&gt;</attr>
+<attr path="/api/package[@name='com.prolificinteractive.materialcalendarview']/class[@name='WeekPagerAdapter']/method[@name='getSelectedDates' and count(parameter)=0]" name="managedReturn">System.Collections.Generic.IList&lt;MaterialCalendarLibrary.CalendarDay&gt;</attr>
+<attr path="/api/package[@name='com.prolificinteractive.materialcalendarview']/class[@name='CalendarPagerView']/method[@name='setSelectedDates']/parameter[@name='p0']" name="managedType">System.Collections.Generic.IList&lt;MaterialCalendarLibrary.CalendarDay&gt;</attr>-->
+
+<attr path="/api/package[@name='com.prolificinteractive.materialcalendarview']/class[@name='WeekView']/method[@name='setSelectedDates']/parameter[@name='p0']" name="managedType">System.Collections.Generic.ICollection&lt;MaterialCalendarLibrary.CalendarDay&gt;</attr>
+
+<attr path="/api/package[@name='com.prolificinteractive.materialcalendarview']/class[@name='WeekView']/method[@name='setSelectedDates']/parameter[@name='p0']" name="type">java.util.Collection&lt;MaterialCalendarLibrary.CalendarDay&gt;</attr>
+
+
+<attr path="/api/package[@name='com.prolificinteractive.materialcalendarview']" name="managedName">MaterialCalendarLibrary</attr>
+
+<attr path="/api/package[@name='com.prolificinteractive.materialcalendarview']/class[@name='WeekPagerAdapter']/method[@name='getSelectedDates' and count(parameter)=0]" name="return">java.util.List&lt;com.prolificinteractive.materialcalendarview.CalendarDay&gt;</attr>
+</metadata>
