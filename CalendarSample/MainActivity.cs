@@ -1,5 +1,5 @@
 ﻿using Android.App;
-using Android.Widget;
+using MaterialCalendarLibrary;
 using Android.OS;
 
 namespace CalendarSample
@@ -7,7 +7,6 @@ namespace CalendarSample
     [Activity(Label = "Calendar Sample", MainLauncher = true, Icon = "@mipmap/icon")]
     public class MainActivity : Activity
     {
-        int count = 1;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -18,9 +17,8 @@ namespace CalendarSample
 
             // Get our button from the layout resource,
             // and attach an event to it
-            Button button = FindViewById<Button>(Resource.Id.myButton);
+            var calendar = FindViewById<MaterialCalendarView>(Resource.Id.calendarView);
 
-            button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
         }
     }
 }
